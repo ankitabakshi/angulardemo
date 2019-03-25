@@ -1,0 +1,13 @@
+<div class="bgdetails">
+  <div *ngIf="prod">
+    <h5 class="detailsheading">{{prod.name | uppercase}} Details</h5>
+    <div class="proddetails">
+      <div><span>Product ID: </span>{{prod.id}}</div>
+      <div><span>Product Name: </span>{{prod.name}}</div>
+      <div><span>Product Version: </span>{{prod.version}}</div>
+    </div>
+  </div>
+  <div class="mg">
+    <button type="button" class="btn btn-primary" (click)="goBack()">go back</button>
+  </div>
+</div>

@@ -1,0 +1,15 @@
+.bgdetails{
+    padding: 1em;
+    background:#9999991f;
+}
+.detailsheading{
+    text-decoration: underline;
+    color: darkblue;
+}
+.proddetails{
+    border: 2px solid darkgrey;;
+    padding: 1em;
+}
+.mg{
+    margin-top: 1em;
+}
